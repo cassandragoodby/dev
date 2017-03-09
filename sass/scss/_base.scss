@@ -1,0 +1,20 @@
+body{
+	background: $bgcolor;
+}
+
+h1{
+	color: $headercolor;
+}
+
+p{
+	color: $pcolor;
+}
+
+h2{
+	color: $h2color;
+}
+
+header{ 
+	@include box;
+	@include centerme;
+}
