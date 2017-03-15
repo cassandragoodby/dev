@@ -1,7 +1,130 @@
-header {
-	top: 0;
-	margin: 0;
-	padding-top: 40px;
-	padding-bottom: 40px;
-	text-align: center;
+body{
+	background-color: #292929; 
 }
+
+h1{
+	color: #f03a32;
+	font-size: 20px;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	padding-top: 50px;
+}
+
+p{
+	text-align: center;
+	margin-top: -100px;
+}
+
+nav{
+	text-align: center;
+	margin-top: -185px;
+	font-size: 25px;
+	color: #4f4f4f;
+	text-decoration: none;
+	font-family: 'Raleway', sans-serif;
+}
+
+nav a{
+	font-size: 25px;
+	color: #4f4f4f;
+	text-decoration: none;
+	font-family: 'Raleway', sans-serif;
+}
+
+nav a:hover{
+	color: #f03a32;
+}
+
+#row{
+    align-content: center;
+    text-align: center;
+}
+
+#full-row{
+	display: inline-block;
+    margin: 0 auto auto auto;  
+    align-content: center;
+    text-align: justify;
+    }
+
+#firstcontent{
+    width:210px;
+    float: left;
+    padding: 5px 15px 10px 15px;
+    }
+            
+#middlecontent{
+    width: 210px;
+    float: left;
+    padding: 5px 15px 10px 15px;
+    }
+            
+#lastcontent{
+    width:210px;
+    padding: 5px 15px 10px 15px;
+    float: left;
+    }
+
+#footerp{
+    font-size: 15px;
+    }
+    
+footer{
+    height: 50px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding-top: 30px;
+    margin-top: 110px;
+    text-align: center;
+    color: #4f4f4f;
+	font-family: 'Raleway', sans-serif;
+    }
+
+ footer a{
+ 	text-decoration: none;
+ 	color: #4f4f4f;
+ }
+
+@media only screen and (max-width:736px){
+
+    #headerimg{
+        width:85%;
+        margin-top: 10%;
+    }
+
+    nav{
+        margin-top: -25%;
+    }
+
+    #row{
+        align-content: center;
+        text-align: center;
+    }
+
+    #full-row{
+        max-width: 200px;
+        margin: auto; 
+        display: inline-block;
+        align-content: center;
+        text-align: center;
+    }
+
+    #firstcontent{
+        width:210px;
+        float: left;
+        padding: 5px 0px 10px 0px;
+    }
+            
+    #middlecontent{
+        width: 210px;
+        float: left;
+        padding: 5px 0px 10px 0px;
+    }
+            
+    #lastcontent{
+        width:210px;
+        padding: 5px 0px 10px 0px;
+        float: left;
+    }
+    }
